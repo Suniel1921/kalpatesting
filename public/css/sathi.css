@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.seedNavbar {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  /* position: fixed; */
+  /* width: 100%; */
+  /* flex-wrap: wrap; */
+}
+.seednavlink {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.seednavlink li {
+  list-style: none;
+}
+.seednavlink li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #011a41;
+}

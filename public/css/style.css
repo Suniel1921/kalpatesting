@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* ----------------------------navbar styling  start from here----------------------------*/
+
+
+.navbar {
+  font-family: "Roboto", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: rgb(255, 255, 255);
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+
+.navlink {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+}
+
+.navlink li {
+  list-style: none;
+}
+.navlink li a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-weight: 600;
+  color: #011a41;
+}
+
+.btn {
+  /* padding: 0.5rem; */
+  /* background-color: rgb(255, 70, 101); */
+  background-color: #34ba82;
+  color: white;
+  height: 5vh;
+  width: 9vw;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 600;
+}
+
+.btn:hover {
+  background-color: #011a41;
+}
+/* ----------------------------navbar styling  end from here----------------------------*/
+
+/* ----------------------------main section styling  start from here----------------------------*/
+.back-img {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+
+.main-sec {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.438), rgba(0, 0, 0, 0.705));
+  height: 100vh;
+  /* height: 88.5vh; */
+  font-family: "Roboto", sans-serif;
+}
+
+.heading {
+  position: relative;
+  top: 20rem;
+  margin-left: 17rem;
+  /* line-height: 1.5rem; */
+  color: white;
+  /* letter-spacing: 1px; */
+}
+.para {
+  margin-bottom: 2rem;
+}
+.head {
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+/* ----------------------------main sectoin styling  end here----------------------------*/
+
+/* ----------------------------hiro sectoin styling start from here----------------------------*/
+
+.left-hiro {
+  position: relative;
+  font-family: "Roboto", sans-serif;
+  top: 5rem;
+  text-transform: capitalize;
+  margin-left: 17rem;
+}
+
+.left-hiro-para {
+  /* color: #fb2448; */
+  color: #34ba82;
+  font-weight: 500;
+  margin-bottom: 2rem;
+}
+.left-hiro-head {
+  color: #011a41;
+}
+.left-hiro-para2 {
+  color: #011a41;
+}
+
+.objectives{
+  position: relative;
+  top: 2rem;
+  color: #011a41;
+  font-size: 2rem;
+}
+.objbtn{
+  position: relative;
+  top: 2rem;
+}
+.icon {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-family: "Roboto", sans-serif;
+}
+.iconheading {
+  font-family: "Roboto", sans-serif;
+  color: #011a41;
+  margin-top: 2rem;
+}
+.hiro-sec {
+  display: flex;
+}
+.hiro-sec {
+  display: flex;
+}
+
+
+/*--------------------------- why kalapbrikshay ? style section--------------------------- */
+/* .whykalpa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 9rem;
+}
+.kalpaheading{
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  text-align: center;
+  color: #011a41;
+  top: 9rem;
+}
+
+.kalparightsec{
+  width: 34%;
+}
+.kalparightsec img{
+  height: 442px;
+  width: 431px;
+
+} */
+
+.whykalpasec{
+  margin-top: 4rem;
+}
+.kalpapara{
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  color: #34ba82;
+  position: relative;
+  margin-left: 33rem;
+  top: 3rem;
+}
+
+.kalpaleftsec{
+  width: 40%;
+}
+
+.kalpasecimg{
+  width: 528px;
+  height: 510px;
+  text-align: center;
+  position: relative;
+  top: 4rem;
+  left: 10rem;
+
+}
+
+
+
+ /* -----------------------------this style is for about company another design================ */
+ .topsec{
+  /* position: relative; */
+  margin-top: 3rem;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+ }
+
+ .mainGrid{
+  display: flex;
+  gap: 5rem;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+  margin-left: 12rem;
+  margin-right: 12rem;
+ }
+ .gridBtn{
+  margin-top: 2rem;
+
+ }
+ .headObj{
+  text-align: center;
+  margin-top: 3rem;
+  font-family: "Roboto", sans-serif;
+  color: #011a41;
+ }
+
+
+
+  /* ----------------------------- end herer this style is for about company another design================ */
+
+
+
+
+
+.hiro-sec .right-hiro {
+  position: relative;
+  top: 13rem;
+  margin-left: 5rem;
+  height: 360px;
+  /* margin-right: 4rem; */
+  width: 640px;
+  /* border-radius: 3rem; */
+  object-fit: cover;
+  /* background-image: url('../img/animatedvdo.gif'); */
+}
+.readmore {
+  position: relative;
+  top: 3rem;
+  right: 4rem;
+}
+
+.animated {
+  /* width: 34vh; */
+  height: 44vh;
+  position: absolute;
+  right: 44rem;
+  z-index: -1;
+}
+
+/* ----------------------------project sectoin styling start from here----------------------------*/
+
+.project-sec {
+  background-color: #efefef;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  top: 12rem;
+  text-align: center;
+  height: 63vh;
+}
+
+.latestpro {
+  position: relative;
+  top: 2rem;
+}
+
+.projectimg {
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  gap: 2rem;
+  align-items: center;
+  margin-top: 5rem;
+  flex-wrap: wrap;
+}
+
+.cardhead {
+  position: relative;
+  bottom: 5rem;
+}
+.card1 {
+  transition: 1s;
+}
+
+.card1:hover {
+  transform: scale(1.1);
+  z-index: 2;
+  /* box-shadow: 5px 4px 4px #000000; */
+}
+
+.cardhead h1 {
+  color: #011a41;
+}
+.cardhead h1:hover {
+  /* color:#fb2448; */
+  color: #34ba82;
+}
+
+/* -------------------------------video section style start from here------------------------------- */
+.demo {
+  position: relative;
+  top: 24rem;
+}
+
+.backvdo {
+  width: 100%;
+  height: 74vh;
+  object-fit: cover;
+}
+
+.vdosample {
+  mix-blend-mode: color-burn;
+  /* height: 33vh;
+    width: 23vw; */
+  position: relative;
+  /* this is for center vdo icon  */
+  top: -14rem;
+  bottom: 13rem;
+  right: 44rem;
+  /* this is for righ side vdo icon  */
+  /* top: -22rem;
+    bottom: 10rem; 
+    right: 25rem;
+    */
+}
+.backheading {
+  position: relative;
+  bottom: 20rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+.backheading img {
+  /* color: #011A41; */
+  color: #00414e;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+  position: relative;
+  bottom: 26rem;
+}
+
+/* -------------------------orbit section style start from here------------------------- */
+
+/*------------------------ medeia queries for desktop------------------------------------- */
+
+@media screen and (max-width: 480px) {
+
+  .navbar {
+    display: none;
+  }
+  .main-sec {
+    width: 100%;
+    background-size: cover;
+    
+  }
+  .heading {
+    position: relative;
+    right: 14rem;
+    top: 20rem;
+    width: 86%;
+  }
+  .head{
+    font-size: 27px;   
+  }
+
+  .btn {
+    background-color: #34ba82;
+    color: white;
+    height: 6vh;
+    width: 34vw;
+    border: none;
+    border-radius: 0.5rem;
+    font-weight: 600;
+  }
+
+  .mob-hero{
+    position: relative;
+    top: 2rem;
+    margin-left: 5rem;
+  }
+  .left-hiro-head head{
+    width: 23rem;
+    font-size: 3rem;
+  }
+
+
+
+ .hiro-sec{
+    display: flex;
+    flex-direction: column;
+ }
+
+
+ .hiro-sec .right-hiro {
+    position: relative;
+    top: 7rem;
+    margin-left: 40px;
+    height: 237px;
+    width: 282px;
+    object-fit: cover;
+    border-radius: 22px;
+}
+/* .mob-hero{
+    width: 100%;
+} */
+.icon {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+    font-family: "Roboto", sans-serif;
+    width: 14rem;
+  }
+  .icon img{    
+    width: 9rem;
+    height: 7rem;
+
+  }
+
+  .project-sec {
+    background-color: #efefef;
+    font-family: "Roboto", sans-serif;
+    position: relative;
+    top: 12rem;
+    text-align: center;
+    height: 80vh;
+  }
+
+  .projectimg{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center; 
+    background-color: #efefef;
+
+  }
+
+  
+
+
+  .demo{
+    
+    display: none;
+  }
+
+
+
+
+
+
+
+}
+
+/* //////////////////////testing/////////////////////////// */
+.testing {
+  height: 233px;
+}
